@@ -1,1 +1,1 @@
-# Digital-Forensics-Insidery-Threat-Investigation
+#  Insider Threat & Corporate Fraud Digital Forensic Analysis (Simulated Academic Lab)
