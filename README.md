@@ -60,47 +60,27 @@ The examination sought to:
 
 ## Key Findings
 
-### Evidence Integrity Verification
+## Evidence Verification
 
-- Verified forensic image integrity using cryptographic hash validation.
-- Confirmed evidence remained unchanged throughout the investigation process.
+Demonstrated forensic integrity by validating evidence using MD5 hash verification.
 
-### Operating System Identification
+![Evidence Verification](screenshots/evidence-verification.png)
 
-- Identified the operating system through memory analysis using Volatility.
-- Recovered system metadata and configuration information.
+---
 
-### File System Analysis
+## Memory Analysis
 
-- Examined disk geometry and partition structures.
-- Identified NTFS and FAT32 file systems.
-- Accounted for disk utilization and partition allocation.
+Used Volatility 3 to identify operating system details and active system information.
 
-### Deleted Artifact Recovery
+![Memory Analysis](screenshots/memory-analysis-volatility.png)
 
-- Recovered deleted spreadsheet files from unallocated space.
-- Performed file carving using Autopsy and HxD.
-- Identified evidence of financial planning and hidden documentation.
+---
 
-### Browser Forensics
+## Deleted File Recovery
 
-- Examined browser artifacts and bookmarks.
-- Recovered evidence of research related to fraudulent financial activities.
+Recovered deleted artifacts using Autopsy and HxD file-carving techniques.
 
-### USB Device Analysis
-
-- Identified multiple USB devices connected to the system.
-- Recovered device identifiers and connection history.
-
-### Memory Analysis
-
-- Utilized Volatility 3 to examine memory artifacts.
-- Recovered operating system details and active process information.
-
-### User Activity Reconstruction
-
-- Reconstructed suspect activities through artifact correlation.
-- Established evidence supporting motive, means, and opportunity.
+![Deleted File Recovery](screenshots/deleted-file-recovery.png)
 
 ---
 
