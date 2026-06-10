@@ -137,7 +137,7 @@ Recovered deleted artifacts using Autopsy and HxD file-carving techniques.
 
 ```text
 report/
-└── Graduate_Digital_Forensic_Report.pdf
+└── ForensicReport.pdf
 
 screenshots/
 ├── FTK-Imager
